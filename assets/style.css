@@ -1,0 +1,49 @@
+:root {
+    --text-color-1: #fff;
+    --text-color-2: #800080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4a49499f;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--text-color-1);
+}
+
+h2 {
+    color: var(--text-color-1);
+    border: 20px;
+}
+
+
+
+p {
+    color: var(--text-color-1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header p, code {
+    color: var(--text-color-2)
+}
+
+section { 
+   border: 2px dashed var(--text-color-1);
+   height: 300px;
+   width: 400px;
+   margin: 20px;
+}
+
